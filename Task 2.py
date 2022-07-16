@@ -1,15 +1,13 @@
+InputStr= input("Enter Input String : ")
 
-InputString= input("InputString : ")
+symbol = input("Enter Symbol String : ")
 
-trash=input("TrashSymbolsString : ")
-
-InputString = InputString.lower()
+InputStr = InputStr.lower()
 
 temp =""
 
-
-for i in InputString:
-    if(i in trash):
+for i in InputStr:
+    if(i in symbol):
         pass
     else:
         
